@@ -118,4 +118,4 @@ Now that we have our APIs up and running, and a collection that will test each o
 ![Image of Postman monitor](https://kinlane-productions.s3.amazonaws.com/postman-tutorials/nimbella/nimbella-postman-monitor.png)
 
 ## Support
-If you have any questions feel free to submit a GitHub issue for this repository, and we will do our best to help you out.
+If you have any questions feel free to submit a GitHub issue for this repository, and we will try and support you in any way we can. Thanks for tuning in, hopefully it helps you see the potential of deploying APIs using Postman and Nimbella.
