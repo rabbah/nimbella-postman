@@ -7,11 +7,11 @@ To be able to get hands on with this project you will need two things:
 - [Postman](https://www.postman.com/) - You will need to have signed up and downloaded Postman.
 - [Nimbella](https://nimbella.com/signup) - You will need to have signed up for Nimbella and downloaded the CLI.
 
-At the command line, make sure you have authenticated using Nimbella: `nim auth login <your token>` (Available after you login with Nimbella)
+Authenticate: `nim auth login <your token>` (Available after you login with Nimbella)
 
-Then you need to make sure you have the Postman plugin installed at the command line: `nim plugins add postman`
+Install Postman Plugin: `nim plugins add postman`
 
-To make the plugin work you will need to [obtain an API Key from your Postman account](https://go.postman.co/integrations/services/pm_pro_api), and paste in at the command line when asked.
+Postman Key:  [From sYour Account](https://go.postman.co/integrations/services/pm_pro_api)
 
 Now that you have Postman and Nimbella installed, have authenticated, and added the Postman plugin you should be ready to deploy your API.
 
