@@ -18,6 +18,8 @@ Now that you have Postman and Nimbella installed, are authenticated, and added t
 ## Deploying Serverless API
 You can choose from three separate types of APIs to deploy a serverless API from Postman using Nimbella, or use your Postman collection.
 
+___
+
 ### Products
 A simple products API using the Schema.org products object--click to run in your Postman.
 
@@ -28,6 +30,8 @@ A simple products API using the Schema.org products object--click to run in your
 **Deploy Project**: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
+
+___
 
 ### Persons
 A simple products API using the Schema.org products object--click to run in your Postman.
@@ -40,6 +44,8 @@ A simple products API using the Schema.org products object--click to run in your
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
+___
+
 ### Blogs
 A simple products API using the Schema.org products object--click to run in your Postman.
 
@@ -48,6 +54,8 @@ A simple products API using the Schema.org products object--click to run in your
 **Create Project**: `nim project create -s postman -i Blogs --language js`
 
 **Deploy Project**: `nim project deploy .`
+
+___
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
