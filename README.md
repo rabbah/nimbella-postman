@@ -7,47 +7,47 @@ To be able to get hands on with this project you will need two things:
 - [Postman](https://www.postman.com/) - You will need to have signed up and downloaded Postman.
 - [Nimbella](https://nimbella.com/signup) - You will need to have signed up for Nimbella and downloaded the CLI.
 
-Authenticate: `nim auth login <your token>` (Available after you login with Nimbella)
+**Authenticate**: `nim auth login <your token>` (Available after you login with Nimbella)
 
-Install Postman Plugin: `nim plugins add postman`
+**Install Postman Plugin:** `nim plugins add postman`
 
-Postman Key:  [From sYour Account](https://go.postman.co/integrations/services/pm_pro_api)
+**Postman Key**: [From sYour Account](https://go.postman.co/integrations/services/pm_pro_api)
 
-Now that you have Postman and Nimbella installed, have authenticated, and added the Postman plugin you should be ready to deploy your API.
+Now that you have Postman and Nimbella installed, are authenticated, and added the Postman plugin you should be ready to deploy your serverless API tot he cloud.
 
 ## Deploying Serverless API
-You can choose from three separate types of APIs to deploy a serverless API from Postman using Nimbella.
+You can choose from three separate types of APIs to deploy a serverless API from Postman using Nimbella, or use your Postman collection.
 
 ### Products
-A simple products API using the Schema.org products object--click to download into your Postman.
+A simple products API using the Schema.org products object--click to run in your Postman.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5c58b258f4940254570b)
 
-Create Project: `nim project create -s postman -i Products --language js`
+**Create Project**: `nim project create -s postman -i Products --language js`
 
-Deploy Project: `nim project deploy .`
+**Deploy Project**: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
 ### Persons
-A simple products API using the Schema.org products object--click to download into your Postman.
+A simple products API using the Schema.org products object--click to run in your Postman.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/89cc94a608f66bee4b1e)
 
-Create Project: `nim project create -s postman -i Persons --language js`
+**Create Project**: `nim project create -s postman -i Persons --language js`
 
-Deploy Project: `nim project deploy .`
+**Deploy Project**: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
 ### Blogs
-A simple products API using the Schema.org products object--click to download into your Postman.
+A simple products API using the Schema.org products object--click to run in your Postman.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/706da016ef0fae61a664)
 
-Create Project: `nim project create -s postman -i Blogs --language js`
+**Create Project**: `nim project create -s postman -i Blogs --language js`
 
-Deploy Project: `nim project deploy .`
+**Deploy Project**: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
