@@ -23,9 +23,9 @@ A simple products API using the Schema.org products object--click to download in
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5c58b258f4940254570b)
 
-Then at the command line you can run: `nim project create -s postman -i Products --language js`
+Create Project: `nim project create -s postman -i Products --language js`
 
-Then go ahead an publish your API, so that you can use it: `nim project deploy .`
+Deploy Project: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
@@ -34,9 +34,9 @@ A simple products API using the Schema.org products object--click to download in
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/89cc94a608f66bee4b1e)
 
-Then at the command line you can run: `nim project create -s postman -i Persons --language js`
+Create Project: `nim project create -s postman -i Persons --language js`
 
-Then go ahead an publish your API, so that you can use it: `nim project deploy .`
+Deploy Project: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
@@ -45,9 +45,9 @@ A simple products API using the Schema.org products object--click to download in
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/706da016ef0fae61a664)
 
-Then at the command line you can run: `nim project create -s postman -i Blogs --language js`
+Create Project: `nim project create -s postman -i Blogs --language js`
 
-Then go ahead an publish your API, so that you can use it: `nim project deploy .`
+Deploy Project: `nim project deploy .`
 
 You should see your project created locally on your machine, and in the root there is a Postman collection--go ahead an import into Postman, and you should be able to use your new API.
 
