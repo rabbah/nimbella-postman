@@ -161,7 +161,7 @@ schedule as a Postman monitor. Just click on the ... action to the
 right of your collection, and you will be given a configuration screen
 for your monitor.
 
-![Image of Postman monitor](https://kinlane-productions.s3.amazonaws.com/postman-tutorials/nimbella/nimbella-postman-monitor.png)
+![Image of Postman monitor](https://kinlane-productions2.s3.amazonaws.com/postman-tutorials/nimbella/nimbella-postman-monitor.png)
 
 ## Support
 
