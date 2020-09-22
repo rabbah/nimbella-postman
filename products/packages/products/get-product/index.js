@@ -1,33 +1,42 @@
-
 /* Retrieves a single product. */
+const nimbella = require('nim')
+const kv = nimbella.redis()
 
-function main(params) {
-    return {
-        statusCode: 200,
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: {
-            "identifier": "product-three",
-            "name": "Product Three",
-            "description": "This is a description of product three.",
-            "image": "http://example.com/image.jpg",
-            "url": "http://example.com",
-            "brand": "Union Fashion",
-            "category": "Test",
-            "color": "Blue",
-            "logo": "http://example.com/image.jpg",
-            "manufacturer": "Unon Fashion",
-            "material": "Cotton",
-            "model": "Test",
-            "releaseDate": "01/01/2020",
-            "sku": "test-1",
-            "width": "0",
-            "weight": "0",
-            "depth": "0",
-            "height": "0"
-        },
-    };
+async function main(params) {
+    const productid = params.__ow_path
+
+    return kv
+        .getAsync(productid)
+        .then(product => {
+            if (product) {
+                return {
+                    statusCode: 200,
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.parse(product)
+                }
+            } else {
+                return {
+                    statusCode: 404,
+                    body: {
+                        status: "Product not found"
+                    }
+                }
+            }
+        })
+        .catch(error => {
+            console.log(error)
+            return {
+                statusCode: 400,
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: {
+                    status: "Oops!"
+                }
+            }
+        })
 }
 
-exports.main = main;
+exports.main = main
