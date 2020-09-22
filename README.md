@@ -12,9 +12,15 @@ To be able to get hands on with this project you will need two things:
 - [Postman](https://www.postman.com/) - You will need to have signed up and downloaded Postman.
 - [Nimbella](https://nimbella.com/signup) - You will need to have signed up for Nimbella and downloaded the CLI.
 
-**Authenticate**: `nim login`
+**Authenticate**:
+```
+nim login
+```
 
-**Install Postman Plugin:** `nim plugins add postman`
+**Install Postman Plugin**:
+```
+nim plugins add postman
+```
 
 **Postman Key**: [From Your Account](https://go.postman.co/integrations/services/pm_pro_api)
 
@@ -34,9 +40,15 @@ A simple products API using the Schema.org products object — click to run in y
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5c58b258f4940254570b)
 
-**Create Project**: `nim project create -s postman -i Products --language js`
+**Create Project**:
+```
+nim project create -s postman -i Products --language js
+```
 
-**Deploy Project**: `nim project deploy products`
+**Deploy Project**:
+```
+nim project deploy products
+```
 
 - You should see a project created locally on your machine in a directory called `products`.
 - In the root of the `products` directory, there is a Postman collection.
@@ -49,9 +61,15 @@ A simple products API using the Schema.org products object — click to run in y
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/89cc94a608f66bee4b1e)
 
-**Create Project**: `nim project create -s postman -i Persons --language js`
+**Create Project**:
+```
+nim project create -s postman -i Persons --language js
+```
 
-**Deploy Project**: `nim project deploy persons`
+**Deploy Project**:
+```
+nim project deploy persons
+```
 
 - You should see a project created locally on your machine in a directory called `persons`.
 - In the root of the `persons` directory, there is a Postman collection.
@@ -64,9 +82,15 @@ A simple products API using the Schema.org products object — click to run in y
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/706da016ef0fae61a664)
 
-**Create Project**: `nim project create -s postman -i Blogs --language js`
+**Create Project**:
+```
+nim project create -s postman -i Blogs --language js
+```
 
-**Deploy Project**: `nim project deploy blogs`
+**Deploy Project**:
+```
+nim project deploy blogs
+```
 
 - You should see a project created locally on your machine in a directory called `blogs`.
 - In the root of the `blogs` directory, there is a Postman collection.
