@@ -23,6 +23,12 @@ nim plugins add postman
 ```
 
 **Postman Key**: [From Your Account](https://go.postman.co/integrations/services/pm_pro_api)
+- You will need your Postman API key when generating a project for your APIs on your machine.
+- You will be prompted to enter the API key when it is needed.
+- You can configure the Nimbella CLI to use your Postman API key by running the following command. The key is only stored locally on your machine.
+```
+nim auth postman --add --name mykey --key <Postman API key>
+```
 
 Now that you have Postman and Nimbella installed, are authenticated,
 and added the Postman plugin you should be ready to deploy your
