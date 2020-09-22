@@ -1,0 +1,8 @@
+packages:
+  - name: products
+    actions:
+      - name: get-product
+      - name: get-products
+      - name: update
+      - name: delete
+      - name: add-product

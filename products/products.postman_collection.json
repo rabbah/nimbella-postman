@@ -1,0 +1,300 @@
+{
+    "_": {
+        "postman_id": "ccdf66d5-30ac-4d35-9ba8-4f19431cab1f"
+    },
+    "item": [
+        {
+            "_": {
+                "postman_id": "07242823-d2f0-4e6c-ab8e-2e97a60341d8"
+            },
+            "id": "07242823-d2f0-4e6c-ab8e-2e97a60341d8",
+            "name": "Get Product",
+            "request": {
+                "description": {
+                    "content": "Retrieves a single product.",
+                    "type": "text/plain"
+                },
+                "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/get-product/:productId",
+                "header": [
+                    {
+                        "key": "x-api-key",
+                        "value": ""
+                    }
+                ],
+                "method": "GET"
+            },
+            "response": [
+                {
+                    "_": {
+                        "postman_previewlanguage": "json"
+                    },
+                    "id": "cbda9f07-54b8-43bb-81cb-4eebe5fd32ec",
+                    "name": "Single product.",
+                    "originalRequest": {
+                        "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/get-product/:productId",
+                        "method": "GET"
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "body": "{\n    \"identifier\": \"product-three\",\n    \"name\": \"Product Three\",\n    \"description\": \"This is a description of product three.\",\n    \"image\": \"http://example.com/image.jpg\",\n    \"url\": \"http://example.com\",\n    \"brand\": \"Union Fashion\",\n    \"category\": \"Test\",\n    \"color\": \"Blue\",\n    \"logo\": \"http://example.com/image.jpg\",\n    \"manufacturer\": \"Unon Fashion\",\n    \"material\": \"Cotton\",\n    \"model\": \"Test\",\n    \"releaseDate\": \"01/01/2020\",\n    \"sku\": \"test-1\",\n    \"width\": \"0\",\n    \"weight\": \"0\",\n    \"depth\": \"0\",\n    \"height\": \"0\"\n}",
+                    "cookie": [],
+                    "responseTime": null
+                }
+            ],
+            "event": []
+        },
+        {
+            "_": {
+                "postman_id": "2231b3fb-306a-46fe-881f-b0f7508582d6"
+            },
+            "id": "2231b3fb-306a-46fe-881f-b0f7508582d6",
+            "name": "Get Products",
+            "request": {
+                "description": {
+                    "content": "Pulls a list of all product",
+                    "type": "text/plain"
+                },
+                "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/get-products",
+                "method": "GET"
+            },
+            "response": [
+                {
+                    "_": {
+                        "postman_previewlanguage": "json"
+                    },
+                    "id": "5b5256bd-2d8c-4f68-a21b-078d5d217fb9",
+                    "name": "List of products.",
+                    "originalRequest": {
+                        "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/get-products",
+                        "method": "GET"
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "body": "[\n    {\n        \"identifier\": \"product-three\",\n        \"name\": \"Product Three\",\n        \"description\": \"This is a description of product three, providing the details of this product.\",\n        \"image\": \"http://example.com/image.jpg\",\n        \"url\": \"http://example.com\",\n        \"brand\": \"Union Fashion\",\n        \"category\": \"Test\",\n        \"color\": \"Blue\",\n        \"logo\": \"http://example.com/image.jpg\",\n        \"manufacturer\": \"Unon Fashion\",\n        \"material\": \"Cotton\",\n        \"model\": \"Test\",\n        \"releaseDate\": \"01/01/2020\",\n        \"sku\": \"test-1\",\n        \"width\": \"0\",\n        \"weight\": \"0\",\n        \"depth\": \"0\",\n        \"height\": \"0\"\n    },\n    {\n        \"identifier\": \"product-two\",\n        \"name\": \"Product Two\",\n        \"description\": \"This is a description of product two-two-two, providing the details of this product.\",\n        \"image\": \"http://example.com/image.jpg\",\n        \"url\": \"http://example.com\",\n        \"brand\": \"Union Fashion\",\n        \"category\": \"Test\",\n        \"color\": \"Blue\",\n        \"logo\": \"http://example.com/image.jpg\",\n        \"manufacturer\": \"Unon Fashion\",\n        \"material\": \"Cotton\",\n        \"model\": \"Test\",\n        \"releaseDate\": \"01/01/2020\",\n        \"sku\": \"test-1\",\n        \"width\": \"0\",\n        \"weight\": \"0\",\n        \"depth\": \"0\",\n        \"height\": \"0\"\n    },\n    {\n        \"identifier\": \"product-one\",\n        \"name\": \"Product One\",\n        \"description\": \"This is a description of product one, providing the details of this product.\",\n        \"image\": \"http://example.com/image.jpg\",\n        \"url\": \"http://example.com\",\n        \"brand\": \"Union Fashion\",\n        \"category\": \"Test\",\n        \"color\": \"Blue\",\n        \"logo\": \"http://example.com/image.jpg\",\n        \"manufacturer\": \"Unon Fashion\",\n        \"material\": \"Cotton\",\n        \"model\": \"Test\",\n        \"releaseDate\": \"01/01/2020\",\n        \"sku\": \"test-1\",\n        \"width\": \"0\",\n        \"weight\": \"0\",\n        \"depth\": \"0\",\n        \"height\": \"0\"\n    },\n    {\n        \"identifier\": \"product-four\",\n        \"name\": \"Product Four\",\n        \"description\": \"This is a description of product four, providing the details of this product.\",\n        \"image\": \"http://example.com/image.jpg\",\n        \"url\": \"http://example.com\",\n        \"brand\": \"Union Fashion\",\n        \"category\": \"Test\",\n        \"color\": \"Blue\",\n        \"logo\": \"http://example.com/image.jpg\",\n        \"manufacturer\": \"Unon Fashion\",\n        \"material\": \"Cotton\",\n        \"model\": \"Test\",\n        \"releaseDate\": \"01/01/2020\",\n        \"sku\": \"test-1\",\n        \"width\": \"0\",\n        \"weight\": \"0\",\n        \"depth\": \"0\",\n        \"height\": \"0\"\n    }\n]",
+                    "cookie": [],
+                    "responseTime": null
+                }
+            ],
+            "event": []
+        },
+        {
+            "_": {
+                "postman_id": "6b67cb5e-c294-45bd-972f-7c82e3bbe8d9"
+            },
+            "id": "6b67cb5e-c294-45bd-972f-7c82e3bbe8d9",
+            "name": "Update",
+            "request": {
+                "description": {
+                    "content": "Supports either full or partial updates.",
+                    "type": "text/plain"
+                },
+                "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/update/:productId",
+                "header": [
+                    {
+                        "key": "x-api-key",
+                        "value": ""
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "PUT",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"identifier\": \"<string>\",\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"image\": \"<string>\",\n    \"url\": \"<string>\",\n    \"brand\": \"<string>\",\n    \"category\": \"<string>\",\n    \"color\": \"<string>\",\n    \"logo\": \"<string>\",\n    \"manufacturer\": \"<string>\",\n    \"material\": \"<string>\",\n    \"model\": \"<string>\",\n    \"releaseDate\": \"<string>\",\n    \"sku\": \"<string>\",\n    \"width\": \"<string>\",\n    \"weight\": \"<string>\",\n    \"depth\": \"<string>\",\n    \"height\": \"<string>\"\n}",
+                    "options": {
+                        "raw": {}
+                    }
+                }
+            },
+            "response": [
+                {
+                    "_": {
+                        "postman_previewlanguage": "text"
+                    },
+                    "id": "44fe24c8-766c-45c1-8ae1-9391a7b9036a",
+                    "name": "Successfully updated.",
+                    "originalRequest": {
+                        "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/update/:productId",
+                        "method": "PUT",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"unitSalePrice\": 29.99\n}"
+                        }
+                    },
+                    "status": "No Content",
+                    "code": 204,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "responseTime": null
+                }
+            ],
+            "event": []
+        },
+        {
+            "_": {
+                "postman_id": "02cbb72e-e9a6-4079-8a40-d6cd0ced2ca5"
+            },
+            "id": "02cbb72e-e9a6-4079-8a40-d6cd0ced2ca5",
+            "name": "Delete",
+            "request": {
+                "description": {
+                    "content": "Delete an individual product.",
+                    "type": "text/plain"
+                },
+                "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/delete/:productId",
+                "header": [
+                    {
+                        "key": "x-api-key",
+                        "value": ""
+                    }
+                ],
+                "method": "DELETE"
+            },
+            "response": [
+                {
+                    "_": {
+                        "postman_previewlanguage": "text"
+                    },
+                    "id": "868bb2a7-1b04-464e-af75-f06a36838634",
+                    "name": "Product deleted.",
+                    "originalRequest": {
+                        "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/delete/:productId",
+                        "method": "DELETE"
+                    },
+                    "status": "No Content",
+                    "code": 204,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "text/plain"
+                        }
+                    ],
+                    "body": "",
+                    "cookie": [],
+                    "responseTime": null
+                }
+            ],
+            "event": []
+        },
+        {
+            "_": {
+                "postman_id": "04d716b0-8d5c-4488-bc6a-2cccdf1dd5a3"
+            },
+            "id": "04d716b0-8d5c-4488-bc6a-2cccdf1dd5a3",
+            "name": "Add Product",
+            "request": {
+                "description": {
+                    "content": "Creates a new productz.",
+                    "type": "text/plain"
+                },
+                "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/add-product",
+                "header": [
+                    {
+                        "key": "x-api-key",
+                        "value": ""
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "POST",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"identifier\": \"product-nine\",\n    \"name\": \"Product Nine\",\n    \"description\": \"This is a description of product nine, providing all the details of this product.\",\n    \"image\": \"http://example.com/image.jpg\",\n    \"url\": \"http://example.com\",\n    \"brand\": \"Union Fashion\",\n    \"category\": \"Test\",\n    \"color\": \"Red\",\n    \"logo\": \"http://example.com/image.jpg\",\n    \"manufacturer\": \"Unon Fashion\",\n    \"material\": \"Cotton\",\n    \"model\": \"Test\",\n    \"releaseDate\": \"01/01/2020\",\n    \"sku\": \"test-1\",\n    \"width\": \"0\",\n    \"weight\": \"0\",\n    \"depth\": \"0\",\n    \"height\": \"0\"\n}",
+                    "options": {
+                        "raw": {}
+                    }
+                }
+            },
+            "response": [
+                {
+                    "_": {
+                        "postman_previewlanguage": "json"
+                    },
+                    "id": "fc38dc98-8fcb-4cb9-b6fa-d608e53f4bd2",
+                    "name": "Successful creation of product.",
+                    "originalRequest": {
+                        "url": "https://rodricgm-h4nvfnjgdgg-apigcp.nimbella.io/api/products/add-product",
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"category\": \"Jeans\",\n    \"brand\": \"Union\",\n    \"color\": \"black\",\n    \"gender\": \"m\",\n    \"unitPrice\": 49.99,\n    \"unitSalePrice\": 29.99\n}"
+                        }
+                    },
+                    "status": "Created",
+                    "code": 201,
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "body": "{\n \"status\": \"success\"\n}",
+                    "cookie": [],
+                    "responseTime": null
+                }
+            ],
+            "event": []
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "cb4d39f0-37ba-46cb-9c25-e110c40c196d",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "decd1d38-f1dc-4ae4-81d2-48e8c0f81d07",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "id": "f3f5e1e4-40fd-4ecd-bf46-65b04d279324",
+            "type": "string",
+            "value": "{{baseUrl}}",
+            "key": "baseUrl"
+        }
+    ],
+    "info": {
+        "_postman_id": "ccdf66d5-30ac-4d35-9ba8-4f19431cab1f",
+        "name": "Products",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": {
+            "content": "This is a collection for a products API, turning Schema.org products schema into a simple API for add, listing, updating, and deleting products.",
+            "type": "text/plain"
+        }
+    }
+}
