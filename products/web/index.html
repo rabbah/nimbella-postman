@@ -21,12 +21,22 @@
 <body style="padding-top:100px">
   <div class="container" style="width:650px;color: #43728A">
     <center><img src="logo.png" width="30%">
-      <div style>
+      <div id="products">
       </div>
     </center>
   </div>
 
   <script type="text/javascript">
+  fetch('/api/products/get-products')
+    .then(async response => {
+      products = await response.json()
+      div = document.getElementById('products')
+      products.forEach(product => {
+        listing = document.createElement('div')
+        listing.innerHTML = `<span><img src="${product.image||"default.png"}">${product.color} ${product.brand} ${product.category}: $1000</span>`
+        div.appendChild(listing)
+      })
+    })
   </script>
 </body>
 
